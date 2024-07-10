@@ -24,7 +24,7 @@ export default function RootLayout({
 
       <body className={`${archivo.className} bg-mid-verti`}>
       <div className="flex flex-col h-screen">
-      <Navigation />
+
       <main className="flex-1 overflow-y-auto">
             {children}
       </main>
